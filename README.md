@@ -8,11 +8,11 @@ Especially, we use Streamlit to design web, share.streamlit.io to make the web u
 
 **HERE IS THE LINK FOR THE WEB** :  
 https://turphim88.streamlit.app/
-**( CAUTION:** If this analyzing reviews meet RunTimeError or do not give result, try to analyse AGAIN as the API deployment on Render with the freemode sometimes work kinda slow especially at the first input, from the second one it is much faster ! **)**
+**(CAUTION:** If this analyzing reviews meet RunTimeError or do not give result, try to analyse AGAIN as the API deployment on Render with the freemode sometimes work kinda slow especially at the first input, from the second one it is much faster! **)**
 
 Also, we want to introduce different branches in our Github as we need different parts to be in different branches. 
 
-- First, regarding **Review_Sentiment_Machine_Learning**, this is the first part of our work, in this branch, we test 3 different machine learning models for the NLP problem ( Bag of Words meet Bag of Popcorns ) and find the best model along with using TFIDF, data cleaning and dump the best in a pkl file so that we can later use in other parts. 
+- First, regarding **Review_Sentiment_Machine_Learning**, this is the first part of our work, in this branch, we test 3 different machine learning models for the NLP problem (Bag of Words meet Bag of Popcorns) and find the best model along with using TFIDF, data cleaning and dump the best in a pkl file so that we can later use in other parts. 
 
 - Second, regarding **Review_Sentiment_Backend_Render**, this is a branch linking to our API deployment on Render consisting artifacts where we load the pkl file mentioned before, domain where API is received and results are returned and services where we process file, handle input and return output and main where we use all the before files for Render to run. 
 
@@ -25,31 +25,30 @@ Also, we want to introduce different branches in our Github as we need different
 ## II. Team members and task assignment
 
 1. **Thái Thanh Bình (Leader) 16.7% :**
-   - Finding ideas for the project, learn about the idea and the workflow of the Machine Learning Bag of Words meets Bag of Popcorns assignment.
+   - Finding ideas for the project, learn about the idea and the workflow of the Machine Learning Bag of Words meets Bag of Popcorns assignment
    - Learning about streamlit to divide works
-   - Learning about Machine Learning algorithms for Bag of Words meets Bag of Popcorns assignment.  (Logistic regression + Linear SVC)
+   - Learning about Machine Learning algorithms for Bag of Words meets Bag of Popcorns assignment (Logistic regression + Linear SVC)
    - Learning about how to deploy machine learning model to API deployment and code the Review_Sentiment_Backend_Render branch 
-   - Code the ReviewSentiment.ipynb in Review_Sentiment_Machine_Learning branch from first code sentence to predict_batch ( except for the data cleaning part)
+   - Code the ReviewSentiment.ipynb in Review_Sentiment_Machine_Learning branch from first code sentence to predict_batch (except for the data cleaning part)
    - Combine codes of each member which are all locals, fixing bugs when combining and uploading to Share.streamlit.io
    - Code the function part in review.py in Homepage_Combine branch
    - Make slide for presentation
 
-2. **Nguyễn Ngọc Linh (nhóm phó) 14.66% :**
-   - Learning about Machine Learning algorithms for Bag of Words meets Bag of Popcorns assignment.  (Random Forest)
-   - Code the ReviewSentiment.ipynb from predict_batch to end ( metrics calculating and comparing part )
-   - Finding ideas for expanding the project idea which is Movie Recommendations, learn about the idea and its workflow.
+2. **Nguyễn Ngọc Linh (Sub lead) 14.66% :**
+   - Learning about Machine Learning algorithms for Bag of Words meets Bag of Popcorns assignment (Random Forest)
+   - Finding ideas for expanding the project idea which is Movie Recommendations, learn about the idea and its workflow
    - Code the Movie_Recommendations_Testing branch and the function part in recommendations.py in Homepage_Combine branch 
 
 3. **Phùng Nhật Minh 14.66% :**
-   - Code the ReviewSentiment.ipynb cleaning data part 
-   - Learn about the TF-IDF 
-   - Code the design and function in homepage.py in Homepage_Combine branch 
+   - Code the ReviewSentiment.ipynb cleaning data part
+   - Learn about the TF-IDF
+   - Code the design and function in homepage.py in Homepage_Combine branch
 
 4. **Ngô Mạnh Duy 10%:**
    - Code the ReviewSentiment.ipynb cleaning data part 
    - Learn about the TF-IDF 
    - Write report
-   - Make slide
+   - Make slide for presentation
    - Make the video for how to use the web
 
 5. **Hoàng Linh Phương 14.66% :**
@@ -70,18 +69,18 @@ Also, we want to introduce different branches in our Github as we need different
 
 ## III. Instructions for installing and running the code:
 
-1. **Python version used** : 3.12
+1. **Python version used:** 3.12
 
 2. **List of libraries to install:**  
    There is a requirements.txt file in each branch
 
-3. **How to run :**
+3. **How to run:**
    i. Files such as ReviewSentiment.ipynb and Movie_Recommendation_System.ipynb : Run like normal to test the code in local computer  
-   ii. Go to dashboard.Render to choose respitory and choose Review_Sentiment_Backend_Render branch, build command :  
+   ii. Go to dashboard.Render to choose respitory and choose Review_Sentiment_Backend_Render branch, build command:  
    ```bash
    pip install -r requirement.txt
    iii. Press Create App on Streamlit and choosing the right git respitory
-4. **How to use :**
-   i. Our web has 2 features which are Review Sentiment Analysis and Movie Recommendations. With the first one, just go to review analysis, input from keyboard your reviews ( a new line is calculated as one review ) or upload xlsx/txt/csv file with two columns ( recommending named two columns stt and review ) our web will give results as to how many of your reviews are positive/ negative. Another feature is Recommender, just choose from the selectbox the film you like or input from keyboard its name, our web will recommend you similar movies, you can touch the image and press trailer to watch its trailer on Youtube ) 
+4. **How to use:**
+   i. Our web has 2 features which are Review Sentiment Analysis and Movie Recommendations. With the first one, just go to review analysis, input from keyboard your reviews (a new line is calculated as one review) or upload xlsx/txt/csv file with two columns (recommending named two columns stt and review) our web will give results as to how many of your reviews are positive/ negative. Another feature is Recommender, just choose from the selectbox the film you like or input from keyboard its name, our web will recommend you similar movies, you can touch the image and press trailer to watch its trailer on Youtube).
 
 
