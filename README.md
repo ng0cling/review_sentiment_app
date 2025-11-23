@@ -24,44 +24,44 @@ Also, we want to introduce different branches in our Github as we need different
 
 ## II. Team members and task assignment
 
-1. **Thái Thanh Bình (Leader) 16.7% :**
+1. **Thái Thanh Bình (Leader) - 16.7%:**
    - Finding ideas for the project, learn about the idea and the workflow of the Machine Learning Bag of Words meets Bag of Popcorns assignment
    - Learning about streamlit to divide works
    - Learning about Machine Learning algorithms for Bag of Words meets Bag of Popcorns assignment (Logistic regression + Linear SVC)
    - Learning about how to deploy machine learning model to API deployment and code the Review_Sentiment_Backend_Render branch 
-   - Code the ReviewSentiment.ipynb in Review_Sentiment_Machine_Learning branch
+   - Code the ReviewSentiment.ipynb in Review_Sentiment_Machine_Learning branch from first code sentence to predict_batch (except for the data cleaning part)
    - Combine codes of each member which are all locals, fixing bugs when combining and uploading to Share.streamlit.io
    - Code the function part in review.py in Homepage_Combine branch
    - Make slide for presentation
 
-2. **Nguyễn Ngọc Linh (Sub lead) 14.66% :**
+2. **Nguyễn Ngọc Linh (Sub lead) - 14.66%:**
    - Learning about Machine Learning algorithms for Bag of Words meets Bag of Popcorns assignment (Random Forest)
    - Finding ideas for expanding the project idea which is Movie Recommendations, learn about the idea and its workflow
    - Code the Movie_Recommendations_Testing branch and the function part in recommendations.py in Homepage_Combine branch 
 
-3. **Phùng Nhật Minh 14.66% :**
+3. **Phùng Nhật Minh - 14.66% :**
    - Code the ReviewSentiment.ipynb cleaning data part
    - Learn about the TF-IDF
    - Code the design and function in homepage.py in Homepage_Combine branch
 
-4. **Ngô Mạnh Duy 10%:**
+4. **Ngô Mạnh Duy - 10%:**
    - Code the ReviewSentiment.ipynb cleaning data part 
    - Learn about the TF-IDF 
    - Write report
    - Make slide for presentation
    - Make the video for how to use the web
 
-5. **Hoàng Linh Phương 14.66% :**
+5. **Hoàng Linh Phương - 14.66%:**
    - Code the design for homepage
    - Draw and Design Homepage, Review and Recommendation Frontend
    - Code the design and function in homepage.py in Homepage_Combine branch 
    - Learning about streamlit
 
-6. **Nguyễn Lâm Huy 14.66% :**
+6. **Nguyễn Lâm Huy - 14.66%:**
    - Code the design for review.py in Homepage_Combine branch 
    - Learning about streamlit
 
-7. **Lê Thị Như Ý 14.66% :**
+7. **Lê Thị Như Ý - 14.66%:**
    - Code the design for recommendations in Homepage_Combine branch 
    - Learning about streamlit
 
@@ -81,6 +81,7 @@ Also, we want to introduce different branches in our Github as we need different
    pip install -r requirement.txt
    iii. Press Create App on Streamlit and choosing the right git respitory
 4. **How to use:**
-   i. Our web has 2 features which are Review Sentiment Analysis and Movie Recommendations. With the first one, just go to review analysis, input from keyboard your reviews (a new line is calculated as one review) or upload xlsx/txt/csv file with two columns (recommending named two columns stt and review) our web will give results as to how many of your reviews are positive/ negative. Another feature is Recommender, just choose from the selectbox the film you like or input from keyboard its name, our web will recommend you similar movies, you can touch the image and press trailer to watch its trailer on Youtube).
+   i. Our web has 2 features which are Review Sentiment Analysis and Movie Recommendations. With the first one, just go to review analysis, input from keyboard your reviews (a new line is calculated as one review) or upload xlsx/txt/csv file with two columns (recommending named two columns stt and review) our web will give results as to how many of your reviews are positive/ negative.
+   ii. Another feature is Recommender, just choose from the selectbox the film you like or input from keyboard its name, our web will recommend you similar movies, you can touch the image and press trailer to watch its trailer on Youtube).
 
 
