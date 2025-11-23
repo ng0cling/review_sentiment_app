@@ -7,7 +7,7 @@ import streamlit.components.v1 as components
 # 
 # 1. CẤU HÌNH & KHỞI TẠO
 # 
-st.set_page_config(page_title = "Movie Homepage", layout = "wide")
+st.set_page_config(page_title="Movie Homepage", page_icon="🎬", layout="wide")
 
 # Định nghĩa đường dẫn
 BASE_DIR = Path(os.getcwd()) # Lấy đường dẫn thư mục hiện tại
@@ -285,3 +285,4 @@ with col1:
 with col2:
     if st.button("Analyze Your Reviews", use_container_width=True):
         st.switch_page("pages/review.py")
+
