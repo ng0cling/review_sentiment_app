@@ -21,7 +21,7 @@ with open(BG_PATH, "rb") as f:
     encoded = b64encode(f.read()).decode()
 
 #  PAGE CONFIG =
-st.set_page_config(page_title="RCM • Movie Recommender", layout="wide")
+st.set_page_config(page_title="Movie Recommender", page_icon="🎬", layout="wide")
 
 #  FONTS + CONTAINER 
 st.markdown("""
