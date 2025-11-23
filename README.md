@@ -80,5 +80,6 @@ Also, we want to introduce different branches in our Github as we need different
    pip install -r requirement.txt
    iii. Press Create App on Streamlit and choosing the right git respitory
 4. **How to use :**
+   i. Our web has 2 features which are Review Sentiment Analysis and Movie Recommendations. With the first one, just go to review analysis, input from keyboard your reviews ( a new line is calculated as one review ) or upload xlsx/txt/csv file with two columns ( recommending named two columns stt and review ) our web will give results as to how many of your reviews are positive/ negative. Another feature is Recommender, just choose from the selectbox the film you like or input from keyboard its name, our web will recommend you similar movies, you can touch the image and press trailer to watch its trailer on Youtube ) 
 
 
