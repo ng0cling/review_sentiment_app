@@ -16,7 +16,7 @@ Also, we want to introduce different branches in our Github as we need different
 
 - Second, regarding **Review_Sentiment_Backend_Render**, this is a branch linking to our API deployment on Render consisting artifacts where we load the pkl file mentioned before, domain where API is received and results are returned and services where we process file, handle input and return output and main where we use all the before files for Render to run. 
 
-- Third, regarding **Movie_Recommendations_Machine_Learning**, this a branch where we test the algorithm to test the film and run on localhost before converting to the last part is uploading to share.streamlit.io
+- Third, regarding **Movie_Recommendations_Testing**, this a branch where we test the algorithm to test the film and run on localhost before converting to the last part is uploading to share.streamlit.io
 
 - Foruth, regarding **Homepage_Combine**, this is the last part of our proect, consisting of all things we did before, where we create a homepage to approach 2 functions, review.py where we load the web for Review_Sentiment_Machine_Learning model to practice and recommendations.py where we apply the algorithm for recommend we test before. 
 
