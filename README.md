@@ -49,6 +49,8 @@ Also, we want to introduce different branches in our Github as we need different
    - Code the ReviewSentiment.ipynb cleaning data part 
    - Learn about the TF-IDF 
    - Write report
+   - Make slide
+   - Make the video for how to use the web
 
 5. **Hoàng Linh Phương 14.66% :**
    - Code the design for homepage
