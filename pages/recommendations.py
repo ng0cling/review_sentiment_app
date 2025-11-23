@@ -20,7 +20,7 @@ BG_PATH = BASE_DIR / "images" / "BG.jpg"
 with open(BG_PATH, "rb") as f:
     encoded = b64encode(f.read()).decode()
 
-#  PAGE CONFIG =
+#  PAGE CONFIG 
 st.set_page_config(page_title="Movie Recommender", page_icon="🎬", layout="wide")
 
 #  FONTS + CONTAINER 
@@ -62,7 +62,7 @@ with col2:
     if st.button("Analyze Your Reviews", use_container_width=True):
         st.switch_page("pages/review.py")
 
-# = STICKER 
+# STICKER 
 STICKER_PATH = BASE_DIR / "images" / "sticker 92.png"
 with open(STICKER_PATH, "rb") as f:
     sticker_encoded = b64encode(f.read()).decode()
@@ -163,7 +163,6 @@ div[data-testid="stVerticalBlock"] button:hover{
 }
 </style> """, unsafe_allow_html=True)
 
-#  TMDB POSTER =
 class MyTfidfVectorizer:
     def __init__(self):
         self.vocab_ = {}
@@ -210,9 +209,6 @@ class MyTfidfVectorizer:
 
         # 5. TF-IDF = TF * IDF
         X *= idf
-
-        # (Có thể chuẩn hóa theo độ dài doc nếu muốn giống sklearn hơn,
-        # nhưng ở đây để đơn giản, chuẩn hóa sẽ làm ở bước cosine)
         return X
 def cosine_similarity_custom(X: np.ndarray) -> np.ndarray:
     """
@@ -268,7 +264,6 @@ def load_data():
     df["tags"] = df["tags"].apply(lambda x: " ".join(x))
     df = df[["movie_id","title","overview","tags"]]
 
-    # = DÙNG TF-IDF & COSINE TỰ CODE =
     tfidf = MyTfidfVectorizer()
     # .values để đảm bảo là list/array các chuỗi
     vectors = tfidf.fit_transform(df["tags"].values)
