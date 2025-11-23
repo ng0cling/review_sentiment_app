@@ -29,7 +29,7 @@ Also, we want to introduce different branches in our Github as we need different
    - Learning about streamlit to divide works
    - Learning about Machine Learning algorithms for Bag of Words meets Bag of Popcorns assignment (Logistic regression + Linear SVC)
    - Learning about how to deploy machine learning model to API deployment and code the Review_Sentiment_Backend_Render branch 
-   - Code the ReviewSentiment.ipynb in Review_Sentiment_Machine_Learning branch from first code sentence to predict_batch (except for the data cleaning part)
+   - Code the ReviewSentiment.ipynb in Review_Sentiment_Machine_Learning branch
    - Combine codes of each member which are all locals, fixing bugs when combining and uploading to Share.streamlit.io
    - Code the function part in review.py in Homepage_Combine branch
    - Make slide for presentation
